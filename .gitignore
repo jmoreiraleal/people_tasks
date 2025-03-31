@@ -1,0 +1,36 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/storage/*.key
+/storage/pail
+/storage/oauth-private.key
+/storage/oauth-public.key
+/public/storage
+/public/hot
+/public/build
+/.phpunit.result.cache
+/.phpunit.cache
+/.phpactor.json
+.env
+.env.*
+!.env.example
+
+# Laravel Homestead
+Homestead.yaml
+Homestead.json
+
+# IDEs e editores
+/.idea
+/.vscode
+/.fleet
+/.zed
+/.nova
+
+# Composer / NPM / Yarn
+npm-debug.log
+yarn-error.log
+auth.json
+
+# Backup de arquivos sensíveis
+.env.backup
+.env.production
